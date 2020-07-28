@@ -1,3 +1,7 @@
+from math import *
+
+#imports more math functions
+
 #first hello world
 
 print("Hello World")
@@ -60,3 +64,52 @@ print(phrase.index("i"))
 print(phrase.index("Brit"))
 
 print(phrase.replace("Brittany", "Britt"))
+
+
+#NUMBERS
+
+print(3+4)
+print(3 * 7.5)
+print(3 * (4 + 5))
+
+my_num = 3
+print(my_num)
+
+#convert into a string
+print(str(my_num) + "my favorite number")
+
+#absolute value
+my_num = -5
+print(abs(my_num))
+
+#power
+print(pow(3, 2))
+
+#power
+print(round(3.7))
+
+#imported math functions
+print(ceil(3.7))
+print(floor(3.7))
+print(sqrt(36))
+
+
+#GETTING INPUT FROM A USER
+
+# name = input("enter your name")
+# age = input("enter your age")
+# print("Hello " + name + "! You are " + age)
+
+
+#Building a basic calculator
+num1 = input("Enter a number ")
+num2 = input("Enter another number ")
+
+#results = num1 + num2 #- A STRING
+# results = int(num1) + int(num2) #- A WHOLE NUM
+results = float(num1) + float(num2) #- ENTER ANY NUMBER FLOAT FUNCTION
+# results = int(num1) + int(num2)
+print(results)
+
+
+#MAD LIBS Example - 59:10
