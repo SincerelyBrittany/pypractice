@@ -102,14 +102,21 @@ print(sqrt(36))
 
 
 #Building a basic calculator
-num1 = input("Enter a number ")
-num2 = input("Enter another number ")
+# num1 = input("Enter a number ")
+# num2 = input("Enter another number ")
 
 #results = num1 + num2 #- A STRING
 # results = int(num1) + int(num2) #- A WHOLE NUM
-results = float(num1) + float(num2) #- ENTER ANY NUMBER FLOAT FUNCTION
+#results = float(num1) + float(num2) #- ENTER ANY NUMBER FLOAT FUNCTION
 # results = int(num1) + int(num2)
-print(results)
+# print(results)
 
 
 #MAD LIBS Example - 59:10
+color = input("Pick a color")
+plural_noun = input("pick a plural noun")
+celebrity = input("pick a celebrity name")
+print("Roses are: " + color)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
+
