@@ -113,10 +113,18 @@ print(sqrt(36))
 
 
 #MAD LIBS Example - 59:10
-color = input("Pick a color")
-plural_noun = input("pick a plural noun")
-celebrity = input("pick a celebrity name")
-print("Roses are: " + color)
-print(plural_noun + " are blue")
-print("I love " + celebrity)
 
+# color = input("Pick a color")
+# plural_noun = input("pick a plural noun")
+# celebrity = input("pick a celebrity name")
+# print("Roses are: " + color)
+# print(plural_noun + " are blue")
+# print("I love " + celebrity)
+
+#USING LISTS/Array
+friends = ["Kevin", "Larry", "Perry"]
+print(friends[1:2])
+friends[1] = "Sally"
+print(friends)
+
+#LISTS FUNCTIONS 1:10:55
