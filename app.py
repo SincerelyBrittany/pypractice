@@ -127,4 +127,13 @@ print(friends[1:2])
 friends[1] = "Sally"
 print(friends)
 
+print(type(friends))
+
+#for loop
+
+programming_languages = "Python", "Ruby", "JavaScript", "HTML", "CSS" #This is a tuple
+
+for language in programming_languages:
+    print(language)
+
 #LISTS FUNCTIONS 1:10:55
